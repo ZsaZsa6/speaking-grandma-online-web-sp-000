@@ -1,4 +1,5 @@
 def speak_to_grandma(phrase)
+  phrase = "WHAT?"
   while phrase == phrase.downcase do
     puts "HUH?! SPEAK UP, SONNY!"
   if phrase == phrase.upcase
