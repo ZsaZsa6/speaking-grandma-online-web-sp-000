@@ -1,10 +1,10 @@
 def speak_to_grandma(phrase)
   phrase = "Hi, Nana!"
-  while phrase == phrase.downcase do
+  if phrase == phrase.downcase 
     puts "HUH?! SPEAK UP, SONNY!"
-  while phrase == phrase.upcase
+  elsif phrase == phrase.upcase
     puts "NO, NOT SINCE 1938!"
-  if phrase == "I LOVE YOU GRANDMA!"
+  else phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
       end
     end
